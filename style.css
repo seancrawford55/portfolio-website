@@ -7,6 +7,7 @@ body{
 .pageTopper img {
     border-radius: 50%;
     height: 200px;
+    width: 200px;
 }
 .summaryHeader{
     text-align: center;
@@ -19,6 +20,7 @@ footer{
 .sectionHeader{
     color: purple;
     font-size: 2rem;
+    text-align: center;
 }
 .card{
     display: inline-block;
@@ -32,6 +34,9 @@ footer{
     display: block;
 }
 .linkSection h3{
-    display: inline;
-    margin: 50px;
+    display: inline-block;
+    width: 30%;
+}
+.work{
+    
 }
