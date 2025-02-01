@@ -5,53 +5,39 @@ body{
     text-align: center;
 }
 .pageTopper img {
-    border-radius: 50%;
     height: 200px;
     width: 200px;
 }
+
 .summaryHeader{
     text-align: center;
     font-size: 2rem ;
     color: purple;
 }
 footer{
-    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 .sectionHeader{
     color: purple;
     font-size: 2rem;
     text-align: center;
 }
-.card{
-    display: inline-block;
-    margin-right: 50px;
-    
+.links{
+    display: flex;
+    justify-content: space-around;
 }
-.middleSection{
-    background-color: beige;
+.button{
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: white;
 }
-.middleSection h3{
-    display: inline-block;
-    width: 22%;
-    text-align: center;
-}
-.middleSection h3 .edu, .linkSection .linkedIn {
-    margin-left: 20px;
-}
-.linkSection h2{
-    display: block;
-}
-.linkSection h3{
-    display: inline-block;
-    width: 45%;
-    text-align: center;
-    
-}
+
 @media(max-width: 480px){
-    .middleSection h3, .linkSection h3{
-        display: block;
-    }
-    .middleSection h3 .edu, .linkSection .linkedIn {
-        margin-left: 0;
+    .links{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 }
